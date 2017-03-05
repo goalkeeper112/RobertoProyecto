@@ -1,0 +1,32 @@
+.logo{
+	width: 50px;
+	height: auto;
+}
+
+.navbar-brand{
+	margin-top: -15px;
+}
+
+
+.intro-header, .banner{
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.scrollup{
+	width: 40px;
+	height: 40px;
+	color: transparent;
+	background-image: url(../img/icon_top.png);
+	border-radius: 50%;
+	opacity: .7;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	display: none;
+
+}
+.scrollup:hover, .scrollup:focus{
+	color:transparent;
+}
